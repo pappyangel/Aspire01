@@ -1,0 +1,7 @@
+dotnet new aspire-starter --use-redis-cache --output AspireSample
+
+dotnet run --project AspireSample/AspireSample.AppHost
+
+dotnet workload list
+dotnet workload update
+dotnet workload install aspire
